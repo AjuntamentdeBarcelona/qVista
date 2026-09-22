@@ -35,7 +35,7 @@ qVista simplifies daily spatial workflows including address searching (geocoding
 ### System Requirements & Installation
 
 1. **QGIS Installation**:
-   - Install **QGIS 3.10 LTR** or higher (tested on QGIS 3.22 / 3.28 / 3.34 LTR) with Python 3 bindings enabled.
+   - Install **QGIS 3.10 LTR** or higher (tested on QGIS 3.40 LTR) with Python 3 bindings enabled.
    - For detailed step-by-step QGIS setup, see [guies/instalacio-qgis.md](guies/instalacio-qgis.md).
 
 2. **Clone the Repository**:
@@ -48,7 +48,7 @@ qVista simplifies daily spatial workflows including address searching (geocoding
    Launch qVista using the Python environment provided with your QGIS installation:
    - **Windows** (Command prompt / Shortcut):
      ```cmd
-     "C:\Program Files\QGIS 3.34\bin\python-qgis.bat" qVista.py
+     "C:\Program Files\QGIS 3.40\bin\python-qgis.bat" qVista.py
      ```
    - **Linux / macOS**:
      ```bash
@@ -95,10 +95,10 @@ qVista simplifies daily spatial workflows including address searching (geocoding
 
 ### Instal·lació i Execució
 
-1. **Requisits previs**: Tenir instal·lat QGIS 3.10 LTR o superior (recomanat QGIS 3.28 / 3.34 LTR). Consulteu [guies/instalacio-qgis.md](guies/instalacio-qgis.md).
+1. **Requisits previs**: Tenir instal·lat QGIS 3.10 LTR o superior (recomanat QGIS 3.40 LTR). Consulteu [guies/instalacio-qgis.md](guies/instalacio-qgis.md).
 2. **Execució**:
    ```cmd
-   "C:\Program Files\QGIS 3.34\bin\python-qgis.bat" qVista.py
+   "C:\Program Files\QGIS 3.40\bin\python-qgis.bat" qVista.py
    ```
 3. **Configuració**: Modifiqueu o creeu el fitxer local `configuracioQvista.py` per ajustar els camins del catàleg de mapes o directoris de treball.
 

@@ -6,7 +6,7 @@ We provide security updates and patches for the active development branch of qVi
 
 | Version | Supported |
 | --- | --- |
-| QGIS 3.22+ compatible releases | :white_check_mark: |
+| QGIS 3.40+ compatible releases | :white_check_mark: |
 | Older releases (< QGIS 3.10) | :x: |
 
 ---

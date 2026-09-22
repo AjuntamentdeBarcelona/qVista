@@ -22,7 +22,7 @@ We are committed to providing a welcoming, inclusive, and harassment-free experi
    ```
 
 2. **Environment Setup**:
-   - Install **QGIS 3.10 LTR** or higher (tested on QGIS 3.22 / 3.28 / 3.34 LTR).
+   - Install **QGIS 3.10 LTR** or higher (tested on QGIS 3.40 LTR).
    - Verify Python 3 and PyQt5 bindings are properly installed.
    - For configuration profiles, refer to [docs/](docs/).
 
