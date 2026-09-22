@@ -1,9 +1,63 @@
 
-#Ignore thumbnails created by Windows
+# --- OS generated files ---
 Thumbs.db
-#Ignore files built by Visual Studio
+ehthumbs.db
+Desktop.ini
+.DS_Store
+*.stackdump
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.mypy_cache/
+
+# --- Virtual Environments ---
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- IDEs and Editors ---
+.vscode/
+.vs/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- GIS / Spatial temporary & lock files ---
 *.gpkg-shm
 *.gpkg-wal
+*.sqlite-wal
+*.sqlite-shm
+*.db-wal
+*.db-shm
+*.qgs~
+*.qgz~
+
+# --- Visual Studio & C++ artifacts ---
 *.obj
 *.exe
 *.pdb
@@ -21,7 +75,7 @@ Thumbs.db
 *.cache
 *.ilk
 *.log
-[Bb]in
+[Bb]in/
 [Dd]ebug*/
 *.lib
 *.sbr
@@ -29,15 +83,10 @@ obj/
 [Rr]elease*/
 _ReSharper*/
 [Tt]est[Rr]esult*
-.vs/
-#Nuget packages folder
 packages/
-*.pyc
-__pycache__/
-.vscode/
-moduls/__pycache__/
+
+# --- Local tests & configs ---
 _test/
-
-
-
 configuracioQvista.py
+Token.txt
+*.token
